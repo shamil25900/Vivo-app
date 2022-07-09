@@ -1,0 +1,435 @@
+/* global class */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    padding: 100px 0px;
+}
+
+.heading-one{
+font-size: 45px;
+}
+
+.heading-two{
+
+font-size: 30px;
+}
+
+.small-heading{
+font-size: 14px;
+}
+
+p{
+    font-size: 14px;
+}
+
+/* css layout */
+/* =======================layout style================ */
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%; 
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12, .row {
+    width: 100%;
+    float: left;
+}
+
+
+/* =====================header-start================ */
+
+header {
+    background-image: url("../imgs/background-1.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+nav{
+padding: 10px 0px;
+}
+.logo{
+text-align: start;
+}
+.menu{
+}
+.menu ul{
+list-style: none;
+padding-top: 10px;
+}
+.menu li{
+display: inline-block;
+margin: 0px 25px;
+}
+.menu li a{padding: 10px 15px;color: white;transition: ease-in-out 0.4s;}
+.menu li a:hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.216);
+    color: #fff;
+}
+.hero-section{
+margin-top: 100px;
+}
+.hero-writing-part{
+}
+.hero-writing-part h1{
+}
+.hero-writing-part p{
+margin: 30px 0px;
+font-size: 15px !important;
+color: rgba(255, 255, 255, 0.789);
+}
+.hero-btn{
+margin-bottom: 60px;
+}
+.hero-btn button{
+padding: 12px 30px;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 8px;
+margin: 15px;
+font-size: 15px;
+font-weight: 500;
+transition: ease-in-out 0.4s;
+cursor: pointer;
+color: white;
+}
+.hero-btn button:hover{
+background-color: white;
+color: black;
+}
+.hero-img img{
+width: 230px;
+height: 460px;
+}
+/* ===========-------header end----=============== */
+
+/* =========================add section start-=========================== */
+#add{
+    background: url("../imgs/background-2.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    padding: 200px 0px 0px;
+    margin-top: -370px;
+    float: left;
+}
+.add-img{
+text-align: end;
+}
+.add-img img{
+    width: 242px;
+    height: 658px;
+    padding-top: 150px;
+}
+.add-box-part{
+padding: 55px 0px 0px 168px;
+}
+.add-box-row1{
+margin-bottom: 50px;
+}
+.add-box-row2{
+margin-left: -61px;
+}
+.add-box{
+    width: 35%;
+    padding: 35px 49px;
+    text-align: center;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+.last{
+margin-left: 66px;
+margin-top: 57px;
+}
+.add-box img{
+width: 25%;
+}
+.mob img{
+    height: 48px;
+}
+.add-box h2{
+padding: 30px 0px;
+}
+.add-box p{
+font-size: 14px;
+color: gray;
+}
+.add-box:hover{
+    box-shadow: 2px 4px 15px grey;
+}
+
+/* ===========================add section end-=============================== */
+/* =====================================marketing2 section start============================== */
+#marketing2{
+ padding: 50px 0px !important;
+}
+.marketing2-writing{
+    text-align: end;
+    padding: 127px 0px 127px 77px;}
+.marketing2-writing h2{
+
+}
+.marketing2-writing p{
+padding: 44px 0px 26px;
+font-size: 19px;
+color: gray;
+}
+.marketing2-writing button{
+padding: 16px 40px;
+font-size: 15px;
+border-radius: 8px;
+background-color: #33d2fd;
+cursor: pointer;
+}
+.marketing2-writing button:hover{
+box-shadow: 5px 5px 15px #80808059;
+}
+
+.marketing2-box{
+margin-left: 113px;
+width: 50%;
+}
+.box{
+    margin: 20px 121px 18px 0px;
+    padding: 35px 36px;
+    font-size: 18px;
+    box-shadow: 2px 3px 15px #8080803b;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+    }
+
+.box i{
+margin-right: 20px;
+}
+.box p{
+margin-left: 35px;
+margin-top: 11px;  
+font-size: 16px;
+color: gray;
+}
+.box:hover{
+background-color: #33d2fd;
+}
+.box p:hover{
+    color: white;
+}
+
+
+/* =====================================marketing2 section end============================== */
+
+/* =====================================marketing3 section start============================== */
+#marketing3{
+background-color: #fafafc;
+padding: 50px 0px !important;
+}
+.marketing3-img{
+text-align: center;
+}
+.marketing3-img img{
+}
+.marketing3-writing{
+padding-left: 95px;
+margin-top: 34px;
+}
+.marketing3-writing h3{
+padding-bottom: 20px;
+}
+.marketing3-writing i{
+background-color: #47c3fa;
+padding: 2px;
+border-radius: 50%;
+margin-right: 17px;
+margin-top: 14px;
+font-size: 15px;
+}
+.marketing3-writing p{font-size: 18px;padding-top: 23px;color: gray;line-height: 1.8888;}
+
+/* =====================================marketing3 section end============================== */
+
+/* ==========================================marketing-4 section start=================== --> */
+#marketing4{
+    background: url("../imgs/background-4.png") no-repeat center;
+    background-size: cover;
+}
+.marketing4-img{
+text-align: end;
+}
+.marketing4-img img{margin-right: 146px;}
+.marketing4-writing{
+}
+.marketing4-writing h4{
+}
+.marketing4-writing p{
+    margin: 50px 0px;
+    font-size: 14px;
+    line-height: 1.8888;
+    color: #fff;}
+.link{
+}
+.link img{
+    margin-right: 32px;
+}
+.writing{
+padding: 121px 164px 121px 57px;
+width: 50%;
+}
+
+/* <!-- ==========================================marketing-4 section end=================== --> */
+
+/* <!-- =====================================section Info=================== --> */
+#Info{
+text-align: center;margin-top: -124px;
+}
+.last-btn{
+    padding: 16px 55px;
+    text-transform: uppercase;
+    font-size: 15px;background-color: #fd6a72;
+    text-align: center;transition: ease-in-out 0.6s;
+    cursor: pointer;}
+.last-btn:hover {
+    box-shadow: 5px 5px 17px #8080808e;
+}
+.info-table{margin-top: 115px;text-align: start;}
+.info{
+}
+.s1s{
+padding-left: 250px;
+}
+.s2s{
+padding-left: 150px;
+}
+.s3s{
+padding-left: 91px;
+}
+.s4s{
+padding-right: 250px;
+}
+.info h5{
+margin-bottom: 16px;
+}
+.info p{
+}
+.info a{
+color: gray;
+font-size: 14px;
+}
+.info a:hover {
+text-decoration: underline;
+}
+.contact{
+margin-top: 103px;
+}
+.contact h6{
+}
+.contact p{margin: 29px 0px;font-size: 14px;color: gray;}
+.form{
+}
+input{
+padding: 12px;width: 28%;
+}
+label{
+}
+#email{
+background-color: #0000000f;
+color: #000;
+}
+input[type="submit"]{
+width: 12%;
+margin-left: 15px;
+background-color: #33d2fd;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+box-shadow: 5px 5px 15px #80808059;
+}
+
+
+/* ================================footer======================= */
+#footnote{
+background-color: #233148;
+width: 100%;
+height: 66px;
+float: left;
+color: white;
+text-align: center;
+}
+q{
+margin-top: 25px;
+}
+.social-site{
+margin-top: 20px;
+font-size: 27px;
+padding-left: 609px;
+}
+.social-site i{
+padding: 0px 27px;
+
+}
+.social-site a{
+    color: white;
+}
+.social-site i:hover {
+}
+
+
+.fa-youtube:before {content: "\f167";cursor: pointer;}
+.fa-google-plus-g:before {content: "\f0d5";cursor: pointer;}
+.fa-globe:before {content: "\f0ac";cursor: pointer;}
+.fa-twitter:before {content: "\f099";cursor: pointer;}
+.fa-facebook:before {content: "\f09a";cursor: pointer}
